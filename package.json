@@ -1,0 +1,21 @@
+{
+  "name": "11-express-api",
+  "version": "1.0.0",
+  "description": "![cf](https://i.imgur.com/7v5ASc8.png) 11: Single Resource Express API ======",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragnaroksedge/11-express-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragnaroksedge/11-express-api/issues"
+  },
+  "homepage": "https://github.com/ragnaroksedge/11-express-api#readme"
+}
