@@ -33,6 +33,13 @@ app.get('/api/house', function(req, res, next) {
   .catch(err => next(err));
 });
 
+app.delete('/api/house', function(req, res, next) {
+  debug('DELETE: /api/house');
+  House.deleteHouse(req.query.id)
+  .then(() => res.sendStatus(204))
+  .catch(err => next(err));
+});
+
 app.use(function(err, req, res, next) {
   debug('error middleware');
   console.error(err.message);

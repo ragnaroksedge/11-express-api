@@ -33,5 +33,12 @@ House.createHouse = function(_house) {
 
 House.fetchHouse = function(id) {
   debug('fetchHouse');
+
   return storage.fetchItem('house', id);
+};
+
+House.deleteHouse = function(id) {
+  debug('deleteHouse');
+
+  return storage.deleteItem('house', id);
 };
